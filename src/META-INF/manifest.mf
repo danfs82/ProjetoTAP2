@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: programa.Principal
+Class-Path: lib/hibernate-entitymanager.jar lib/hibernate-jpa-2.0-api-1.0.1.Final.jar lib/javax.persistence-api-2.2.jar lib/hibernate-jpamodelgen-5.4.15.Final.jar
+
