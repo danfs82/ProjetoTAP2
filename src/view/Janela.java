@@ -268,9 +268,9 @@ public class Janela extends JFrame {
 		
 		
 		JPanel jPPainel2 = new JPanel();
-		jPPainel2.add(tabela);
 
-		JScrollPane scrPane = new JScrollPane(jPPainel2);
+		JScrollPane scrPane = new JScrollPane(tabela);
+		jPPainel2.add(scrPane);
 
 		jPPainel2.setSize(290, 617);
 		scrPane.setSize(290, 380);
@@ -281,7 +281,7 @@ public class Janela extends JFrame {
 		jLTitulo.setText(titulo);
 
 		jPPainel.add(jLTitulo, null);
-		jPPainel.add(scrPane);
+		jPPainel.add(jPPainel2);
 
 		jBOk = new JButton();
 		jBLimpar = new JButton();
